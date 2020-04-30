@@ -3,12 +3,14 @@
 	"contentVersion": "1.0.0.0",
 	"parameters": {
 		"webServerNames": {
-			"type": "array",
-			"defaultValue": [
-				"vm-wdgt-dev-1",
-				"vm-wdgt-dev-2"
-			]
-		},
+	"type": "array",
+	"defaultValue": [
+		"vm-wdgt-dev-1",
+		"vm-wdgt-dev-2",
+		"vm-wdgt-dev-3",
+		"vm-wdgt-dev-4"
+	]
+},
 		"webVmSize": {
 			"type": "string",
 			"defaultValue": "Standard_B2s"
