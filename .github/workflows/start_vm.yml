@@ -25,5 +25,5 @@ jobs:
       uses: azure/CLI@v1
       with:
         inlineScript: |
-          chmod +x ./lab_1/start_vm.sh
+          chmod +x ./lab_4/start_vm.sh
           ./lab_4/start_vm.sh
